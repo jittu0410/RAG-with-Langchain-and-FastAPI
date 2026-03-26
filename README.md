@@ -29,7 +29,7 @@ Make sure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/anarojoecheburua/RAG-with-Lanchain-and-FastAPI.git
+   git clone https://github.com/jittu0410/RAG-with-Langchain-and-FastAPI.git
    cd rag-system
    ```
 
