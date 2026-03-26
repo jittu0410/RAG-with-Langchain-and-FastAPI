@@ -51,7 +51,8 @@ async def get_rag_response(query: str):
     prompt = [f"Use the following information to answer the question:\n\n{context}\n\nQuestion: {query}"]
 
     # Generate the final response using the language model (LLM)
-    generated_response = llm.generate(prompt)  # Pass as a list of strings
+    generated_response = llm.generate(prompt) 
+    # Pass as a list of strings
     
     return generated_response
 
